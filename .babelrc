@@ -1,4 +1,8 @@
 {
   "presets": ["es2015", "stage-0"],
-  "plugins": ["transform-runtime", "add-module-exports"]
+  "plugins": [
+    ["transform-react-jsx", { "pragma": "hJSX" }],
+    "transform-runtime",
+    "add-module-exports"
+  ]
 }
