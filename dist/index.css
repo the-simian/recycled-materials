@@ -1,4 +1,356 @@
-
+/**
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/*------------------------------------*    $CONTENTS
+\*------------------------------------*/
+/**
+ * STYLE GUIDE VARIABLES------------------Declarations of Sass variables
+ * -----Typography
+ * -----Colors
+ * -----Textfield
+ * -----Switch
+ * -----Spinner
+ * -----Radio
+ * -----Menu
+ * -----List
+ * -----Layout
+ * -----Icon toggles
+ * -----Footer
+ * -----Column
+ * -----Checkbox
+ * -----Card
+ * -----Button
+ * -----Animation
+ * -----Progress
+ * -----Badge
+ * -----Shadows
+ * -----Grid
+ * -----Data table
+ * -----Dialog
+ * -----Snackbar
+ *
+ * Even though all variables have the `!default` directive, most of them
+ * should not be changed as they are dependent one another. This can cause
+ * visual distortions (like alignment issues) that are hard to track down
+ * and fix.
+ */
+/* ==========  TYPOGRAPHY  ========== */
+/* We're splitting fonts into "preferred" and "performance" in order to optimize
+   page loading. For important text, such as the body, we want it to load
+   immediately and not wait for the web font load, whereas for other sections,
+   such as headers and titles, we're OK with things taking a bit longer to load.
+   We do have some optional classes and parameters in the mixins, in case you
+   definitely want to make sure you're using the preferred font and don't mind
+   the performance hit.
+   We should be able to improve on this once CSS Font Loading L3 becomes more
+   widely available.
+*/
+/* ==========  COLORS  ========== */
+/**
+*
+* Material design color palettes.
+* @see http://www.google.com/design/spec/style/color.html
+*
+**/
+/**
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/* ==========  Color Palettes  ========== */
+/* colors.scss */
+/**
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/* ==========  IMAGES  ========== */
+/* ==========  Color & Themes  ========== */
+/* ==========  Typography  ========== */
+/* ==========  Components  ========== */
+/* ==========  Standard Buttons  ========== */
+/* ==========  Icon Toggles  ========== */
+/* ==========  Radio Buttons  ========== */
+/* ==========  Ripple effect  ========== */
+/* ==========  Layout  ========== */
+/* ==========  Content Tabs  ========== */
+/* ==========  Checkboxes  ========== */
+/* ==========  Switches  ========== */
+/* ==========  Spinner  ========== */
+/* ==========  Text fields  ========== */
+/* ==========  Card  ========== */
+/* ==========  Sliders ========== */
+/* ========== Progress ========== */
+/* ==========  List ========== */
+/* ==========  Item ========== */
+/* ==========  Dropdown menu ========== */
+/* ==========  Tooltips  ========== */
+/* ==========  Footer  ========== */
+/* TEXTFIELD */
+/* SWITCH */
+/* SPINNER */
+/* RADIO */
+/* MENU */
+/* LIST */
+/* LAYOUT */
+/* ICON TOGGLE */
+/* FOOTER */
+/*mega-footer*/
+/*mini-footer*/
+/* CHECKBOX */
+/* CARD */
+/* Card dimensions */
+/* Cover image */
+/* BUTTON */
+/**
+ *
+ * Dimensions
+ *
+ */
+/* ANIMATION */
+/* PROGRESS */
+/* BADGE */
+/* SHADOWS */
+/* GRID */
+/* DATA TABLE */
+/* DIALOG */
+/* SNACKBAR */
+/* TOOLTIP */
+/**
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/* Typography */
+/* Shadows */
+/* Animations */
+/* Dialog */
+/**
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/*------------------------------------*    $CONTENTS
+\*------------------------------------*/
+/**
+ * STYLE GUIDE VARIABLES------------------Declarations of Sass variables
+ * -----Typography
+ * -----Colors
+ * -----Textfield
+ * -----Switch
+ * -----Spinner
+ * -----Radio
+ * -----Menu
+ * -----List
+ * -----Layout
+ * -----Icon toggles
+ * -----Footer
+ * -----Column
+ * -----Checkbox
+ * -----Card
+ * -----Button
+ * -----Animation
+ * -----Progress
+ * -----Badge
+ * -----Shadows
+ * -----Grid
+ * -----Data table
+ * -----Dialog
+ * -----Snackbar
+ *
+ * Even though all variables have the `!default` directive, most of them
+ * should not be changed as they are dependent one another. This can cause
+ * visual distortions (like alignment issues) that are hard to track down
+ * and fix.
+ */
+/* ==========  TYPOGRAPHY  ========== */
+/* We're splitting fonts into "preferred" and "performance" in order to optimize
+   page loading. For important text, such as the body, we want it to load
+   immediately and not wait for the web font load, whereas for other sections,
+   such as headers and titles, we're OK with things taking a bit longer to load.
+   We do have some optional classes and parameters in the mixins, in case you
+   definitely want to make sure you're using the preferred font and don't mind
+   the performance hit.
+   We should be able to improve on this once CSS Font Loading L3 becomes more
+   widely available.
+*/
+/* ==========  COLORS  ========== */
+/**
+*
+* Material design color palettes.
+* @see http://www.google.com/design/spec/style/color.html
+*
+**/
+/**
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/* ==========  Color Palettes  ========== */
+/* colors.scss */
+/**
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/* ==========  IMAGES  ========== */
+/* ==========  Color & Themes  ========== */
+/* ==========  Typography  ========== */
+/* ==========  Components  ========== */
+/* ==========  Standard Buttons  ========== */
+/* ==========  Icon Toggles  ========== */
+/* ==========  Radio Buttons  ========== */
+/* ==========  Ripple effect  ========== */
+/* ==========  Layout  ========== */
+/* ==========  Content Tabs  ========== */
+/* ==========  Checkboxes  ========== */
+/* ==========  Switches  ========== */
+/* ==========  Spinner  ========== */
+/* ==========  Text fields  ========== */
+/* ==========  Card  ========== */
+/* ==========  Sliders ========== */
+/* ========== Progress ========== */
+/* ==========  List ========== */
+/* ==========  Item ========== */
+/* ==========  Dropdown menu ========== */
+/* ==========  Tooltips  ========== */
+/* ==========  Footer  ========== */
+/* TEXTFIELD */
+/* SWITCH */
+/* SPINNER */
+/* RADIO */
+/* MENU */
+/* LIST */
+/* LAYOUT */
+/* ICON TOGGLE */
+/* FOOTER */
+/*mega-footer*/
+/*mini-footer*/
+/* CHECKBOX */
+/* CARD */
+/* Card dimensions */
+/* Cover image */
+/* BUTTON */
+/**
+ *
+ * Dimensions
+ *
+ */
+/* ANIMATION */
+/* PROGRESS */
+/* BADGE */
+/* SHADOWS */
+/* GRID */
+/* DATA TABLE */
+/* DIALOG */
+/* SNACKBAR */
+/* TOOLTIP */
+/**
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/* Typography */
+/* Shadows */
+/* Animations */
+/* Dialog */
 .mdl-checkbox {
   position: relative;
   z-index: 1;
@@ -8,27 +360,25 @@
   width: 100%;
   height: 24px;
   margin: 0;
-  padding: 0;
-}
-.mdl-checkbox.is-upgraded {
-  padding-left: 24px;
-}
+  padding: 0; }
+  .mdl-checkbox.is-upgraded {
+    padding-left: 24px; }
+
 .mdl-checkbox__input {
-  line-height: 24px;
-}
-.mdl-checkbox.is-upgraded .mdl-checkbox__input {
-  position: absolute;
-  width: 0;
-  height: 0;
-  margin: 0;
-  padding: 0;
-  opacity: 0;
-  -ms-appearance: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  appearance: none;
-  border: none;
-}
+  line-height: 24px; }
+  .mdl-checkbox.is-upgraded .mdl-checkbox__input {
+    position: absolute;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none; }
+
 .mdl-checkbox__box-outline {
   position: absolute;
   top: 3px;
@@ -40,18 +390,16 @@
   margin: 0;
   cursor: pointer;
   overflow: hidden;
-  border: 2px solid $checkbox-off-color;
+  border: 2px solid rgba(0,0,0, 0.54);
   border-radius: 2px;
-  z-index: 2;
-}
-.mdl-checkbox.is-checked .mdl-checkbox__box-outline {
-  border: 2px solid $checkbox-color;
-}
-fieldset[disabled] .mdl-checkbox .mdl-checkbox__box-outline,
-.mdl-checkbox.is-disabled .mdl-checkbox__box-outline {
-  border: 2px solid $checkbox-disabled-color;
-  cursor: auto;
-}
+  z-index: 2; }
+  .mdl-checkbox.is-checked .mdl-checkbox__box-outline {
+    border: 2px solid rgb(63,81,181); }
+  fieldset[disabled] .mdl-checkbox .mdl-checkbox__box-outline,
+  .mdl-checkbox.is-disabled .mdl-checkbox__box-outline {
+    border: 2px solid rgba(0,0,0, 0.26);
+    cursor: auto; }
+
 .mdl-checkbox__focus-helper {
   position: absolute;
   top: 3px;
@@ -61,66 +409,59 @@ fieldset[disabled] .mdl-checkbox .mdl-checkbox__box-outline,
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  background-color: transparent;
-}
-.mdl-checkbox.is-focused .mdl-checkbox__focus-helper {
-  box-shadow: 0 0 0px 16px/2 rgba(0,0,0,0.1);
-  background-color: rgba(0,0,0,0.1);
-}
-.mdl-checkbox.is-focused.is-checked .mdl-checkbox__focus-helper {
-  box-shadow: 0 0 0px 16px/2 $checkbox-focus-color;
-  background-color: $checkbox-focus-color;
-}
+  background-color: transparent; }
+  .mdl-checkbox.is-focused .mdl-checkbox__focus-helper {
+    box-shadow: 0 0 0px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.1); }
+  .mdl-checkbox.is-focused.is-checked .mdl-checkbox__focus-helper {
+    box-shadow: 0 0 0px 8px rgba(63,81,181, 0.26);
+    background-color: rgba(63,81,181, 0.26); }
+
 .mdl-checkbox__tick-outline {
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
-  mask: url("{$checkbox-image-path}/tick-mask.svg?embed");
+  mask: url("/images/tick-mask.svg?embed");
   background: transparent;
   transition-duration: 0.28s;
-  transition-timing-function: $animation-curve-default;
-  transition-property: background;
-}
-.mdl-checkbox.is-checked .mdl-checkbox__tick-outline {
-  background: $checkbox-color url("{$checkbox-image-path}/tick.svg?embed");
-}
-fieldset[disabled] .mdl-checkbox.is-checked .mdl-checkbox__tick-outline,
-.mdl-checkbox.is-checked.is-disabled .mdl-checkbox__tick-outline {
-  background: $checkbox-disabled-color url("{$checkbox-image-path}/tick.svg?embed");
-}
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background; }
+  .mdl-checkbox.is-checked .mdl-checkbox__tick-outline {
+    background: rgb(63,81,181) url("/images/tick.svg?embed"); }
+  fieldset[disabled] .mdl-checkbox.is-checked .mdl-checkbox__tick-outline,
+  .mdl-checkbox.is-checked.is-disabled .mdl-checkbox__tick-outline {
+    background: rgba(0,0,0, 0.26) url("/images/tick.svg?embed"); }
+
 .mdl-checkbox__label {
   position: relative;
   cursor: pointer;
   font-size: 16px;
   line-height: 24px;
-  margin: 0;
-}
-fieldset[disabled] .mdl-checkbox .mdl-checkbox__label,
-.mdl-checkbox.is-disabled .mdl-checkbox__label {
-  color: $checkbox-disabled-color;
-  cursor: auto;
-}
+  margin: 0; }
+  fieldset[disabled] .mdl-checkbox .mdl-checkbox__label,
+  .mdl-checkbox.is-disabled .mdl-checkbox__label {
+    color: rgba(0,0,0, 0.26);
+    cursor: auto; }
+
 .mdl-checkbox__ripple-container {
   position: absolute;
   z-index: 2;
+  top: -6px;
+  left: -10px;
   box-sizing: border-box;
   width: 36px;
   height: 36px;
   border-radius: 50%;
   cursor: pointer;
   overflow: hidden;
-  -webkit-mask-image: -webkit-radial-gradient(circle, #fff, #000);
-}
-.mdl-checkbox__ripple-container .mdl-ripple {
-  background: blue;
-}
-fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container,
-.mdl-checkbox.is-disabled .mdl-checkbox__ripple-container {
-  cursor: auto;
-}
-fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container .mdl-ripple,
-.mdl-checkbox.is-disabled .mdl-checkbox__ripple-container .mdl-ripple {
-  background: transparent;
-}
+  -webkit-mask-image: -webkit-radial-gradient(circle, white, black); }
+  .mdl-checkbox__ripple-container .mdl-ripple {
+    background: rgb(63,81,181); }
+  fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container,
+  .mdl-checkbox.is-disabled .mdl-checkbox__ripple-container {
+    cursor: auto; }
+  fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container .mdl-ripple,
+  .mdl-checkbox.is-disabled .mdl-checkbox__ripple-container .mdl-ripple {
+    background: transparent; }
