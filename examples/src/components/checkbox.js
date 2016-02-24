@@ -1,16 +1,28 @@
 import {Observable} from 'rx';
-import {hJSX} from '@cycle/dom';
+import {div, label, input, span} from '@cycle/dom';
 
-function Checkbox(source){
+function Checkbox({DOM}){
 
-  const check = (
-    <div>
-      <label className="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
-        <input type="checkbox" id="checkbox-2" className="mdl-checkbox__input" />
-        <span className="mdl-checkbox__label">Checssdfdfkbox</span>
-      </label>
-    </div>
-  );
+  const check = div([
+    label(".mdl-checkbox.mdl-js-checkbox.mdl-js-ripple-effect", {
+      attributes: {
+        className: "mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect",
+        htmlFor: "checkbox-2"
+      }
+    }, [
+      input("#checkbox-2.mdl-checkbox__input", {
+        attributes: {
+          type: "checkbox",
+          className: "mdl-checkbox__input"
+        },
+        id: {
+          name: "id",
+          value: "checkbox-2"
+        }
+      }),
+      span(".mdl-checkbox__label", [`Checssdfdfkbox`])
+    ])
+  ]);
 
   return {
     DOM: Observable.of(check)
